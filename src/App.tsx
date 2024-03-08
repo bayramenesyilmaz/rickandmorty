@@ -1,25 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import Locations from './pages/Locations/Locations';
+import Layout from './Layout';
+import LocationDetail from './pages/LocationDetail/LocationDetail';
+import CharacterDetail from './pages/CharacterDetail/CharacterDetail';
+import Characters from './pages/Characters/Characters';
+import Favorites from './pages/Favorites/Favorites';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Locations />} />
+        <Route path='/location-detail/:id' element={<LocationDetail />} />
+        <Route path='/characters' element={<Characters />} />
+        <Route path='/character-detail/:id' element={<CharacterDetail />} />
+        <Route path='/favorites' element={<Favorites />} />
+      </Route>
+    </Routes>
   );
 }
 

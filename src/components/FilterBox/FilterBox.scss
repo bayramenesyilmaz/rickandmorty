@@ -1,0 +1,76 @@
+.filter-form {
+    background-color: rgb(112, 110, 110);
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    border-radius: .3rem;
+    display: flex;
+    flex-direction: column;
+
+    .reset-button {
+        width: 100%;
+        background-color: rgb(227, 61, 61);
+        color: white;
+        border: none;
+        border-radius: .3rem;
+        padding: .3rem 1rem;
+        margin-bottom: .5rem;
+        font-size: 1rem;
+        cursor: pointer;
+        box-shadow: 0 0 5px black;
+    }
+
+    legend {
+        text-align: center;
+        background-color: rgb(163, 238, 236);
+        color: rgb(49, 49, 48);
+        padding: .2rem .5rem;
+        border-radius: .5rem;
+    }
+
+    fieldset {
+        padding: .5rem 1rem;
+        margin-bottom: .5rem;
+        border: 3px solid rgb(16, 240, 195);
+        border-radius: .5rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+
+        input[type="radio"] {
+            display: none;
+        }
+
+        label {
+            width: fit-content;
+            text-align: center;
+            cursor: pointer;
+            background-color: rgb(255, 255, 255);
+            padding: .2rem .5rem;
+            border-radius: .3rem;
+
+            &:hover {
+                outline: 2px solid rgb(73, 204, 240);
+                color: rgb(5, 159, 197);
+            }
+        }
+
+        input[type="radio"]:checked + label {
+            background-color: rgb(19, 199, 88);
+            color: aliceblue;
+        }
+    }
+
+    @media (max-width:900px) {
+        background-color: rgb(112, 110, 110);
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+        border-radius: .3rem;
+        display: flex;
+        flex-direction: column;
+    }
+}

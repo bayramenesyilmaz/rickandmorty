@@ -1,0 +1,57 @@
+.fav-container {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    @media (min-width:900px) {
+        width: 90%;
+    }
+
+    h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 2.2rem;
+        margin-bottom: 1rem;
+        color: #00ffff;
+        text-shadow: 0 0 1px rgb(124, 216, 93);
+    }
+
+    .delete-btn {
+        align-self: flex-end;
+        margin-right: 2rem;
+
+        padding: 0.5rem 1rem;
+        background-color: #d32f2f;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: darken(#d32f2f, 10%);
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .fav-content {
+        flex: 1;
+        width: 100%;
+    }
+
+    .empty-favorites {
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 1.2rem;
+        color: #b8b8b8;
+        font-style: italic;
+    }
+}

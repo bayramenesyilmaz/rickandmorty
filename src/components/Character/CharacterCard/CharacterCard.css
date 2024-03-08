@@ -1,0 +1,94 @@
+.character-card {
+  background-color: azure;
+  margin: 1rem;
+  min-width: 200px;
+  max-width: 250px;
+  height: auto;
+  box-shadow: 0 0 5px black;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.character-card:hover {
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+.character-card .ch-image {
+  width: 100%;
+  height: 180px;
+}
+.character-card .ch-image img {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.character-card .ch-info {
+  width: 100%;
+  padding: 1rem;
+}
+.character-card .ch-info .ch-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.character-card .ch-info .ch-name {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.character-card .ch-info .ch-status {
+  color: white;
+  font-size: 1.1rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+}
+.character-card .ch-info .ch-status-alive {
+  background-color: green;
+}
+.character-card .ch-info .ch-status-dead {
+  background-color: rgb(223, 64, 46);
+}
+.character-card .ch-info .ch-status-unknown {
+  background-color: rgb(101, 101, 101);
+}
+.character-card .ch-info .location-title {
+  font-size: 1.1rem;
+  color: gray;
+  margin-bottom: 0.2rem;
+}
+.character-card .ch-info .location {
+  font-size: 1.15rem;
+  color: rgb(20, 20, 20);
+}
+.character-card .button-group {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  padding: 0.5rem 1rem;
+}
+.character-card .button-group .detail-btn {
+  background-color: #555555;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.character-card .button-group .detail-btn:hover {
+  background-color: #085e33;
+}
+.character-card .button-group .fav-btn {
+  width: 35px;
+  border: none;
+}
+.character-card .button-group .fav-btn:hover {
+  cursor: pointer;
+  color: rgb(238, 92, 92);
+}/*# sourceMappingURL=CharacterCard.css.map */

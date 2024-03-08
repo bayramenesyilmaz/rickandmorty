@@ -1,0 +1,116 @@
+.detail-container {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 .5rem;
+
+    .back-button {
+        background-color: #000000;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #262626;
+
+        }
+    }
+
+    .detail-card {
+        background-color: white;
+        border-radius: .5rem;
+        box-shadow: 0 0 10px black;
+
+        display: flex;
+        flex-direction: row;
+
+        .detail-image {
+            width: 100%;
+
+            img {
+                border-top-left-radius: .5rem;
+                border-bottom-left-radius: .5rem;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+
+        .detail-info {
+            width: 100%;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .ch-title {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                .ch-name {
+                    font-size: 1.5rem;
+                    margin-bottom: .5rem;
+                }
+
+                .ch-status {
+                    color: white;
+                    font-size: 1.1rem;
+                    padding: .2rem .5rem;
+                    border-radius: .5rem;
+                }
+            }
+
+
+            .card-title {
+                font-size: 1.1rem;
+                color: gray;
+                margin-bottom: .2rem;
+            }
+
+            .card-subtitle {
+                font-size: 1.15rem;
+                color: rgb(20, 20, 20);
+            }
+
+
+        }
+
+        .fav-btn {
+            align-self: flex-end;
+            margin-bottom: -.5rem;
+            width: 40px;
+            border: none;
+
+            &:hover {
+                cursor: pointer;
+                color: rgb(238, 92, 92);
+            }
+        }
+    }
+
+
+}
+
+.ch-status-alive {
+    background-color: green;
+}
+
+.ch-status-dead {
+    background-color: rgb(223, 64, 46);
+}
+
+.ch-status-unknown {
+    background-color: rgb(101, 101, 101);
+}

@@ -1,0 +1,15 @@
+.search-bar-container {
+    width: 100%;
+    margin-bottom: 20px;
+
+    input {
+        width: 100%;
+        padding: 10px;
+        font-size: 1.1rem;
+        border-radius: .5rem;
+        outline-color: turquoise;
+        border: none;
+        box-shadow: 0 0 15px rgb(0, 0, 0);
+    }
+
+}

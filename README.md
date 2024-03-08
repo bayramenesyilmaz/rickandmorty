@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+# Rick and Morty API ile Lokasyon ve Karakter Listesi Projesi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bu proje, Rick and Morty API'sini kullanarak lokasyonları ve karakterleri listeleyen bir React uygulamasını içerir.
 
-## Available Scripts
+- Projeyi [canlı olarak buradan](https://example.com) ziyaret edebilirsiniz.
+- [Rick and Morty API](https://rickandmortyapi.com/documentation/#get-a-single-location)
 
-In the project directory, you can run:
+## Özellikler
 
-### `npm start`
+- Lokasyonları listeleyen bir ana sayfa ve her lokasyonun detaylarını gösteren sayfa bulunmaktadır.
+- Lokasyon detay sayfasında, o lokasyondaki karakterleri filtreleyebilirsiniz.
+- Karakterleri listeleyen bir sayfa bulunmaktadır. Bu sayfada arama, listeleme ve sayfalama işlemleri gerçekleştirilebilir.
+- Redux kullanılarak favorilere ekleme ve çıkarma işlemleri yapılabilmektedir.
+- Stiller için SCSS kullanılmıştır.
+- Axios ile API istekleri yapılmakta olup, bu işlemler için özel bir useFetch hook'u geliştirilmiştir.
+- TypeScript, React, ve React Router Dom kullanılmıştır.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Kurulum
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Projeyi yerel bilgisayarınıza klonlayın: `git clone https://github.com/kullaniciadi/proje.git`
+2. Proje dizinine girin: `cd proje`
+3. Gerekli paketleri yükleyin: `npm install`
+4. Projeyi başlatın: `npm start`
 
-### `npm test`
+## Ekran Görüntüleri
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Lokasyonlar](/public/images/rick1.png)
 
-### `npm run build`
+![Lokasyon Detay](/public/images/rick2.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Karakterler](/public/images/rick3.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Favoriler](/public/images/rick4.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Karakter Detay](/public/images/rick5.png)

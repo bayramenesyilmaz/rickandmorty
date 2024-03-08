@@ -1,0 +1,71 @@
+.lc-filter-form {
+  background-color: rgb(112, 110, 110);
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+}
+.lc-filter-form .reset-button {
+  width: 100%;
+  background-color: rgb(227, 61, 61);
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.3rem 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 0 5px black;
+}
+.lc-filter-form legend {
+  text-align: center;
+  background-color: rgb(163, 238, 236);
+  color: rgb(49, 49, 48);
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+}
+.lc-filter-form fieldset {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  border: 3px solid rgb(16, 240, 195);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.lc-filter-form fieldset input[type=radio] {
+  display: none;
+}
+.lc-filter-form fieldset label {
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.3rem;
+}
+.lc-filter-form fieldset label:hover {
+  outline: 2px solid rgb(73, 204, 240);
+  color: rgb(5, 159, 197);
+}
+.lc-filter-form fieldset input[type=radio]:checked + label {
+  background-color: rgb(19, 199, 88);
+  color: aliceblue;
+}
+@media (max-width: 900px) {
+  .lc-filter-form {
+    background-color: rgb(112, 110, 110);
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=LocationFilter.css.map */

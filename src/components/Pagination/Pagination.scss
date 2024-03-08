@@ -1,0 +1,57 @@
+/* PAGİNATİON */
+.pagination {
+    justify-content: center;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: .3rem;
+    font-size: small;
+ 
+
+    .page-item {
+        .page-link {
+            position: relative;
+            display: block;
+            margin: 0 2px;
+            border: 1px solid #cccccc;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: #007bff;
+            text-decoration: none;
+
+            a.page-link:hover {
+                background-color: #cccccc;
+            }
+        }
+
+        &.active {
+            .page-link {
+                color: #ffffff;
+                background-color: #007bff;
+            }
+        }
+
+        &.disabled {
+            .page-link {
+                color: #6c757d;
+                pointer-events: none;
+                cursor: auto;
+            }
+        }
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+    }
+
+
+}

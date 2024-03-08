@@ -3,7 +3,7 @@
 Bu proje, Rick and Morty API'sini kullanarak lokasyonları ve karakterleri listeleyen bir React uygulamasını içerir.
 
 - Projeyi [canlı olarak buradan](https://rickandmorty-lb5l.vercel.app/) ziyaret edebilirsiniz.
-- [Rick and Morty API](https://rickandmortyapi.com/documentation/#get-a-single-location](https://github.com/bayramenesyilmaz/rickandmorty)
+- [Rick and Morty API](https://github.com/bayramenesyilmaz/rickandmorty)
 
 ## Özellikler
 

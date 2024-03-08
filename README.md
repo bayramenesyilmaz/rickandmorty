@@ -18,7 +18,7 @@ Bu proje, Rick and Morty API'sini kullanarak lokasyonları ve karakterleri liste
 
 ## Kurulum
 
-1. Projeyi yerel bilgisayarınıza klonlayın: `git clone https://github.com/kullaniciadi/proje.git`
+1. Projeyi yerel bilgisayarınıza klonlayın: `git clone https://github.com/bayramenesyilmaz/rickandmorty.git`
 2. Proje dizinine girin: `cd proje`
 3. Gerekli paketleri yükleyin: `npm install`
 4. Projeyi başlatın: `npm start`

@@ -1,9 +1,9 @@
-# Rick and Morty API ile Lokasyon ve Karakter Listesi Projesi
+# Rick and Morty API Projesi
 
 Bu proje, Rick and Morty API'sini kullanarak lokasyonları ve karakterleri listeleyen bir React uygulamasını içerir.
 
-- Projeyi [canlı olarak buradan](https://example.com) ziyaret edebilirsiniz.
-- [Rick and Morty API](https://rickandmortyapi.com/documentation/#get-a-single-location)
+- Projeyi [canlı olarak buradan](https://rickandmorty-lb5l.vercel.app/) ziyaret edebilirsiniz.
+- [Rick and Morty API](https://rickandmortyapi.com/documentation/#get-a-single-location](https://github.com/bayramenesyilmaz/rickandmorty)
 
 ## Özellikler
 
@@ -14,6 +14,7 @@ Bu proje, Rick and Morty API'sini kullanarak lokasyonları ve karakterleri liste
 - Stiller için SCSS kullanılmıştır.
 - Axios ile API istekleri yapılmakta olup, bu işlemler için özel bir useFetch hook'u geliştirilmiştir.
 - TypeScript, React, ve React Router Dom kullanılmıştır.
+- Responsive olarak ayarlanmıştır.
 
 ## Kurulum
 

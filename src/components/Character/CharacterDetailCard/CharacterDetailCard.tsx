@@ -92,7 +92,7 @@ const CharacterDetailCard: React.FC<CharacterProps> = ({ character }) => {
                         <p className="card-title">Gender :</p>
                         <p className="card-subtitle">{character.gender}</p>
 
-                        <p className="card-title">Episodes Count :</p>
+                        <p className="card-title">Episode Count :</p>
                         <p className="card-subtitle">{character.episode.length}</p>
 
                     </div>
